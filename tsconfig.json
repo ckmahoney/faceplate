@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+      "module": "nodenext",
+      "target": "ES2017",
+      "skipLibCheck": true,
+      "lib": ["ES6", "DOM"],
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "noEmitOnError": true,
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "rootDir": ".",
+      "strict": true,
+      "strictNullChecks": false,
+      "moduleResolution": "nodenext"
+  },
+  "include": [
+      "src/*.ts",
+  ],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true
+  }
+}
