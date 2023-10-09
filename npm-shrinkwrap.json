@@ -16,7 +16,7 @@
         "mithril": "^2.2.2",
         "moment": "^2.29.4",
         "object-hash": "^3.0.0",
-        "wavesurfer.js": "^6.6.4"
+        "wavesurfer.js": "^7.3.4"
       },
       "devDependencies": {
         "@babel/core": "^7.22.1",
@@ -19018,9 +19018,9 @@
       }
     },
     "node_modules/wavesurfer.js": {
-      "version": "6.6.4",
-      "resolved": "https://registry.npmjs.org/wavesurfer.js/-/wavesurfer.js-6.6.4.tgz",
-      "integrity": "sha512-nBbc0pD/3FdClxKUKL1UW2V9AJPL+JOjC8T6/YF9/FCAn4uo+H6Y8VBkXo9UJXIHoBewoc7iXj3tPeL0UCJhjA=="
+      "version": "7.3.4",
+      "resolved": "https://registry.npmjs.org/wavesurfer.js/-/wavesurfer.js-7.3.4.tgz",
+      "integrity": "sha512-x2Ue4Dh+4RoaWay3LOLHhXgkdxPAIoC/BcbXh0yk8WNhQH2NboPoa52XXoCo4jEfjSe1bc7nxuM5vBIxUMZyBA=="
     },
     "node_modules/wbuf": {
       "version": "1.7.3",
