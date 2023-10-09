@@ -52,7 +52,7 @@
         "lint-staged": ">=13",
         "mini-css-extract-plugin": "^2.7.6",
         "postcss": "^8.4.24",
-        "postcss-custom-media": "^9.1.2",
+        "postcss-custom-media": "^10.0.2",
         "postcss-import": "^15.1.0",
         "postcss-loader": "^7.3.2",
         "postcss-mixins": "^9.0.4",
@@ -15167,9 +15167,9 @@
       }
     },
     "node_modules/postcss-custom-media": {
-      "version": "9.1.5",
-      "resolved": "https://registry.npmjs.org/postcss-custom-media/-/postcss-custom-media-9.1.5.tgz",
-      "integrity": "sha512-GStyWMz7Qbo/Gtw1xVspzVSX8eipgNg4lpsO3CAeY4/A1mzok+RV6MCv3fg62trWijh/lYEj6vps4o8JcBBpDA==",
+      "version": "10.0.2",
+      "resolved": "https://registry.npmjs.org/postcss-custom-media/-/postcss-custom-media-10.0.2.tgz",
+      "integrity": "sha512-zcEFNRmDm2fZvTPdI1pIW3W//UruMcLosmMiCdpQnrCsTRzWlKQPYMa1ud9auL0BmrryKK1+JjIGn19K0UjO/w==",
       "dev": true,
       "funding": [
         {
@@ -15182,10 +15182,10 @@
         }
       ],
       "dependencies": {
-        "@csstools/cascade-layer-name-parser": "^1.0.2",
-        "@csstools/css-parser-algorithms": "^2.2.0",
-        "@csstools/css-tokenizer": "^2.1.1",
-        "@csstools/media-query-list-parser": "^2.1.1"
+        "@csstools/cascade-layer-name-parser": "^1.0.5",
+        "@csstools/css-parser-algorithms": "^2.3.2",
+        "@csstools/css-tokenizer": "^2.2.1",
+        "@csstools/media-query-list-parser": "^2.1.5"
       },
       "engines": {
         "node": "^14 || ^16 || >=18"
@@ -16092,6 +16092,34 @@
         "postcss-replace-overflow-wrap": "^4.0.0",
         "postcss-selector-not": "^7.0.1",
         "postcss-value-parser": "^4.2.0"
+      },
+      "engines": {
+        "node": "^14 || ^16 || >=18"
+      },
+      "peerDependencies": {
+        "postcss": "^8.4"
+      }
+    },
+    "node_modules/postcss-preset-env/node_modules/postcss-custom-media": {
+      "version": "9.1.5",
+      "resolved": "https://registry.npmjs.org/postcss-custom-media/-/postcss-custom-media-9.1.5.tgz",
+      "integrity": "sha512-GStyWMz7Qbo/Gtw1xVspzVSX8eipgNg4lpsO3CAeY4/A1mzok+RV6MCv3fg62trWijh/lYEj6vps4o8JcBBpDA==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/csstools"
+        },
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/csstools"
+        }
+      ],
+      "dependencies": {
+        "@csstools/cascade-layer-name-parser": "^1.0.2",
+        "@csstools/css-parser-algorithms": "^2.2.0",
+        "@csstools/css-tokenizer": "^2.1.1",
+        "@csstools/media-query-list-parser": "^2.1.1"
       },
       "engines": {
         "node": "^14 || ^16 || >=18"
