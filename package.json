@@ -83,6 +83,6 @@
     "mithril": "^2.2.2",
     "moment": "^2.29.4",
     "object-hash": "^3.0.0",
-    "wavesurfer.js": "^6.6.4"
+    "wavesurfer.js": "^7.3.4"
   }
 }
