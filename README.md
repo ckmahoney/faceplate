@@ -3,6 +3,8 @@
 
 This is the frontend of the Ten Pens project. It is made with TypeScript. Most of the type definitions are in src/types.ts, and you will find some others local to their respective module.
 
+This has been tested using Node version 19.4.0 on Ubuntu 20.04.5 LTS. 
+
 
 ## development
 Once cloned, you should be able to immediately run `npm run dev` to have a new window open to http://localhost:9000 and displaying a login screen.
